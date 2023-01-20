@@ -10,7 +10,7 @@ from dash import Dash, html, dcc, Input, Output
 # Backend Logic #
 #################
 
-# Insert backround data stuff and graph functions
+# Insert backround data stuff
 
 
 ##################
