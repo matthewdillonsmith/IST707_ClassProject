@@ -1,5 +1,8 @@
 import datetime
+import webbrowser
 from dash import Dash, html, dcc
+
+webbrowser.open("http://localhost:8050/")
 
 app = Dash(__name__)
 
@@ -8,6 +11,6 @@ def serve_layout():
 
 app.layout = serve_layout
 
-
 if __name__ == '__main__':
     app.run_server(debug=True)
+
