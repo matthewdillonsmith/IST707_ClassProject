@@ -11,6 +11,7 @@ from dash import Dash, html, dcc, Input, Output
 
 # Insert backround data stuff
 
+### In order to make the model easier to load, we should just keep the .pkl file with the ML model saved in the repo, then have the app download the most updated one (will always have the same name).
 
 ##################
 # Frontend Logic #
